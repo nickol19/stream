@@ -1,0 +1,21 @@
+@keyframes animation_emoji {
+  0% {
+    bottom: 0;
+    display: block;
+  }
+
+  25% {
+    bottom: 50%;
+    display: block;
+  }
+
+  90% {
+    bottom: 50%;
+    display: block;
+  }
+
+  100% {
+    bottom: 100%;
+    display: none;
+  }
+}

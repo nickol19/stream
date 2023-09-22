@@ -1,0 +1,172 @@
+.div_ejM2b {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 15px;
+}
+
+.div_o4ubh {
+  display: flex;
+  flex-direction: column-reverse;
+
+  &:has(.div_T5m0f) .div_1d4o4 {
+    display: none;
+  }
+
+  &:has(.div_T5m0f) .div_3opy8 {
+    display: grid; 
+  }
+}
+
+.div_1d4o4 {
+  margin: auto;
+  filter: invert(82%) sepia(99%) saturate(0%) hue-rotate(102deg)
+    brightness(111%) contrast(100%);
+  width: 64px;
+  height: 64px;
+  display: grid;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.div_3opy8 {
+  display: none;
+  padding: 15px;
+  gap: 15px;
+}
+
+.div_T5m0f {
+  width: 100%;
+  justify-self: start;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  &.user {
+    justify-content: right;
+  }
+
+  &.user .div_5f0m7 {
+    background: #ffffff;
+    color: #000000;
+    justify-content: right;
+  }
+
+  &.active .div_fR7XE {
+    display: flex;
+  }
+}
+
+.div_5f0m7 {
+  background: rgb(255 255 255 / 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 85%;
+
+  overflow: hidden;
+  word-break: break-word;
+  color: #ffffff;
+}
+
+.div_fR7XE {
+  display: none;
+}
+
+.button_1I12J {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.form_68Klg {
+  background: none;
+  display: flex;
+  border-top: 1.25px solid rgb(255 255 255 / 0.1);
+
+  & button:first-child {
+    display: none;
+  }
+
+  &.edit button:first-child {
+    display: initial;
+  }
+}
+
+.label_Fkf9B {
+  flex: 1;
+  padding: 15px;
+  min-height: 50px;
+  display: flex;
+
+  cursor: text;
+}
+
+.txt_W17W2 {
+  overflow: hidden;
+
+  font-size: 16px;
+  height: 20px;
+  max-height: 200px;
+
+  align-self: center;
+
+  color: #ffffff;
+  width: 100%;
+}
+
+.button_E8Vr8 {
+  align-self: end;
+  width: 50px;
+  height: 50px;
+
+  color: #ffffff;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+/* div_o4ubh */
+
+.div_F6FFR {
+  position: fixed;
+  inset: 0;
+
+  padding: 15px;
+  display: none;
+
+  &.active {
+    display: flex;
+  }
+  
+}
+
+.div_3b7ZM {
+  margin: auto;
+  width: min(100%, 400px);
+  height: min(100%, 400px);
+  overflow: hidden;
+  border-radius: 8px;
+
+  user-select: none;
+}
+
+@media (min-width: 750px) {
+  .div_ejM2b {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
+
+/* form_68Klg */ /* main_U09zC  div_o4ubh*/

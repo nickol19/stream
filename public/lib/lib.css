@@ -1,0 +1,39 @@
+.div_AKMyj {
+  position: fixed;
+  inset: 0;
+  bottom: initial;
+  display: grid;
+
+  &:has(.div_FFZQY) {
+    padding: 15px;
+    gap: 10px;
+  }
+}
+
+.div_FFZQY {
+  background: green;
+  width: min(100%, 450px);
+  height: 60px;
+  border-radius: 8px;
+
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 0 20px;
+
+  color: #ffffff;
+
+  & button{
+    background: none;
+    border: none;
+    outline: none;
+
+    color: inherit;
+    cursor: pointer; 
+
+    &:hover{
+      opacity: .5;
+    }
+  }
+}
